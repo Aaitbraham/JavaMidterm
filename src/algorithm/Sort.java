@@ -41,6 +41,7 @@ public class Sort {
         int[] list = array;
         //implement here
 
+
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
         this.executionTime = executionTime;

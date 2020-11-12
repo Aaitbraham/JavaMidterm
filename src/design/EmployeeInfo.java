@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo {
+public class EmployeeInfo extends EmployeeExecution implements Employee {
 
     /*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
      * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -34,11 +34,16 @@ public class EmployeeInfo {
      */
     public EmployeeInfo(int employeeId) {
 
+
     }
 
     public EmployeeInfo(String name, int employeeId) {
 
+
     }
+
+
+
 
     /*
      * This methods should calculate Employee bonus based on salary and performance.
@@ -73,6 +78,34 @@ public class EmployeeInfo {
         //Calculate pension
 
         return total;
+    }
+
+    @Override
+    public int employeeId() {
+        int id = 101;
+        System.out.println("employee ID is :"+id);
+        return id;
+
+    }
+
+    @Override
+    public String employeeName() {
+        return null;
+    }
+
+    @Override
+    public void assignDepartment() {
+
+    }
+
+    @Override
+    public int calculateSalary() {
+        return 0;
+    }
+
+    @Override
+    public void benefitLayout() {
+
     }
 
     private static class DateConversion {

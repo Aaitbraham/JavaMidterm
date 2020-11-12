@@ -72,7 +72,7 @@ public class CsvReader {
                 ExercisesNum= ExercisesNum+student.getNumberOfExercisesSolved();
             }
         }
-        System.out.println("∑ of excersises"+" " +ExercisesNum);
+        System.out.println("∑ of excersises"+" "+ExercisesNum);
         int numberOfStudent = 26;
         double average = ExercisesNum/ numberOfStudent;
         System.out.println("The average score of the class is: "+average);

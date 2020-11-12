@@ -55,6 +55,15 @@ public class JsonReaderUtil {
                 //you code start here
                 String empEmail = jsonobject.get("empEmail").toString();
                 System.out.println(empEmail);
+                // get employeeName
+                String employeeName = jsonobject.get("empName").toString();
+                System.out.print(employeeName);
+// get employee salary
+                String employeesalary = jsonobject.get("salary").toString();
+                System.out.print(employeesalary);
+// get department
+                String department = jsonobject.get("department").toString();
+                System.out.println(department);
 
             } catch (Exception ex) {
 

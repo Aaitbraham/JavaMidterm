@@ -1,16 +1,38 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-Ans :
+Ans :to locate and retrieve information
 
 What are the various operations that can be performed on different Data Structures?
+Ans : insertion, deletion, traversal, searching, sorting
 List out the areas in which data structures are applied extensively?
+Ans: Compiler Design,
+           - Operating System,
+           - Database Management System,
+           - Statistical analysis package,
+           - Numerical Analysis,
+           - Graphics,
+           - Artificial Intelligence,
+           - Simulatio
 what is an Array?
+ans:An array is a collection of items stored at contiguous memory locations
+
 what is the difference between the Array and ArrayList?
+Ans: Array is a fixed length data structure whereas ArrayList is a variable length Collection class.
+
 what is LinkedList?
+Ans:The LinkedList class is a collection which can contain many objects of the same type, just like the ArrayList .
+The LinkedList class has all of the same methods as the ArrayList class because they both implement the List interface.
+
 How is an Array different from Linked List?
+Ans :An array is the data structure that contains a collection of similar type data elements whereas the Linked list is considered as a non-primitive data structure contains a collection of unordered linked elements known as nodes.
+
 what is queue?
+Ans: Java Queue is an interface available in java.util package and extends java.util.Collection interface.
+
 what is stack?
+Ans: A Stack is a Last In First Out (LIFO) data structure. It supports two basic operations called push and pop.
+
 what is FIFO and LIFO?
 what is the order of complexity?
 what is the best case to search an element from an array?

@@ -1,24 +1,42 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-Ans :
+Ans :is a computer language programmers used to develop software
 
 What jdk contains or composed of and define each components?
+Ans:Java Runtime Environment(JRE), Compiler(javac),
 What is IDE?
+Ans:  Integrated Development Environment, is a software application that combines all of the features and tools needed by a software developer.
 What are the IDEs available in the market to support java?
+Ans: Eclipes,IntelliJ,NetBeans,JDeveloper, MyEclipse, Blue, JCreator
 Explain the entire java life cycle.
 what is class?
+Ans: is building block of an OOP, (template that describe behaviors)
 What is object?
+Ans: an instance of a class
 What is the entry point of an application?
+Ans:is where the first instructions of a program are executed, and where the program has access to command line arguments.
 Why main is static?
+Ans: so that compiler can call it without the creation of an object or before the creation of an object of the class.
 Which class is the superclass of all classes?
+Ans: Object class
 What is difference between path and classpath variables?
+path defines where to find .exe, while classpath is to specify the location.
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Ans:The interface is a blueprint that can be used to implement a class.
+
+Can you make an Object from an Interface and Abstract class ?no
+if not how do you use it ?
+Ans:
 what is Access Specifier?
-What is OOP ? Define each feature of java OOP.
+Ans: Java Access Specifiers regulate access to classes, fields and methods in Java
+What is OOP ? Object Oriented programming
+Define each feature of java OOP.
+Ans Encapsulation, Inheritance, Polymorphism,Abstaction.
 What is Java Package and which package is imported by default?
-What is API? Name list of API that you have used so far.
+Ans: Java package is folder that contains java classes, java compiler import java.lang by default
+What is API? Application Programmimg interface
+Ans: Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
 Explain exceptions in java and how to handle it.
